@@ -1,0 +1,2023 @@
+﻿{
+  "Config": {
+    "Build": {
+      "Board": "arduino:avr:mega:cpu=atmega2560"
+    }
+  },
+  "Units": [
+    {
+      "*": [
+        {
+          "Name": "Arduino",
+          "Width": 176,
+          "Instance": {
+            "Digital": {
+              "*": [
+                {
+                  "+": "TArduinoAdditionalDigitalSerial0Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial0Channel"
+                },
+                {
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.Inicia.InputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoBasicDigitalPWMInterruptChannel"
+                },
+                {
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.Para.InputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoBasicDigitalPWMInterruptChannel"
+                },
+                {
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.Zerar.InputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DISTANCIA.DigitPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.DISTANCIA.DigitPins.Pin [2]"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DISTANCIA.DigitPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.DISTANCIA.DigitPins.Pin [1]"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DISTANCIA.DigitPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.DISTANCIA.DigitPins.Pin [0]"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.BATIMENTO.DigitPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.BATIMENTO.DigitPins.Pin [2]"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.BATIMENTO.DigitPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.BATIMENTO.DigitPins.Pin [1]"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.BATIMENTO.DigitPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.BATIMENTO.DigitPins.Pin [0]"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.VELOCIDADE.DigitPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.VELOCIDADE.DigitPins.Pin [2]"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.VELOCIDADE.DigitPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.VELOCIDADE.DigitPins.Pin [1]"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.VELOCIDADE.DigitPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.VELOCIDADE.DigitPins.Pin [0]"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial3Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial3Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial2Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial2Channel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.SegmentPins._Pin6",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.SegmentPins.g"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalSerial1InterruptChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.SegmentPins._Pin5",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.SegmentPins.f"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalSerial1InterruptChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.SegmentPins._Pin4",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.SegmentPins.e"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalI2C0InterruptChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.SegmentPins._Pin3",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.SegmentPins.d"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalI2C0InterruptChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.SegmentPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.SegmentPins.c"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.SegmentPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.SegmentPins.b"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.SegmentPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.SegmentPins.a"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DISTANCIA.SegmentPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.DISTANCIA.SegmentPins.a"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DISTANCIA.SegmentPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.DISTANCIA.SegmentPins.b"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DISTANCIA.SegmentPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.DISTANCIA.SegmentPins.c"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DISTANCIA.SegmentPins._Pin3",
+                      "Name": "__OpenWireRootUnit__.DISTANCIA.SegmentPins.d"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DISTANCIA.SegmentPins._Pin4",
+                      "Name": "__OpenWireRootUnit__.DISTANCIA.SegmentPins.e"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DISTANCIA.SegmentPins._Pin5",
+                      "Name": "__OpenWireRootUnit__.DISTANCIA.SegmentPins.f"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.DISTANCIA.SegmentPins._Pin6",
+                      "Name": "__OpenWireRootUnit__.DISTANCIA.SegmentPins.g"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.BATIMENTO.SegmentPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.BATIMENTO.SegmentPins.a"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.BATIMENTO.SegmentPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.BATIMENTO.SegmentPins.b"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.BATIMENTO.SegmentPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.BATIMENTO.SegmentPins.c"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.BATIMENTO.SegmentPins._Pin3",
+                      "Name": "__OpenWireRootUnit__.BATIMENTO.SegmentPins.d"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.BATIMENTO.SegmentPins._Pin4",
+                      "Name": "__OpenWireRootUnit__.BATIMENTO.SegmentPins.e"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.BATIMENTO.SegmentPins._Pin5",
+                      "Name": "__OpenWireRootUnit__.BATIMENTO.SegmentPins.f"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.BATIMENTO.SegmentPins._Pin6",
+                      "Name": "__OpenWireRootUnit__.BATIMENTO.SegmentPins.g"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.VELOCIDADE.SegmentPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.VELOCIDADE.SegmentPins.a"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.VELOCIDADE.SegmentPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.VELOCIDADE.SegmentPins.b"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.VELOCIDADE.SegmentPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.VELOCIDADE.SegmentPins.c"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.VELOCIDADE.SegmentPins._Pin3",
+                      "Name": "__OpenWireRootUnit__.VELOCIDADE.SegmentPins.d"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.VELOCIDADE.SegmentPins._Pin4",
+                      "Name": "__OpenWireRootUnit__.VELOCIDADE.SegmentPins.e"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.VELOCIDADE.SegmentPins._Pin5",
+                      "Name": "__OpenWireRootUnit__.VELOCIDADE.SegmentPins.f"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.VELOCIDADE.SegmentPins._Pin6",
+                      "Name": "__OpenWireRootUnit__.VELOCIDADE.SegmentPins.g"
+                    }
+                  },
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CALORIA.SegmentPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.CALORIA.SegmentPins.a"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CALORIA.SegmentPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.CALORIA.SegmentPins.b"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CALORIA.SegmentPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.CALORIA.SegmentPins.c"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CALORIA.SegmentPins._Pin3",
+                      "Name": "__OpenWireRootUnit__.CALORIA.SegmentPins.d"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalSPI0Channel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CALORIA.SegmentPins._Pin4",
+                      "Name": "__OpenWireRootUnit__.CALORIA.SegmentPins.e"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalSPI0Channel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CALORIA.SegmentPins._Pin5",
+                      "Name": "__OpenWireRootUnit__.CALORIA.SegmentPins.f"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalSPI0Channel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CALORIA.SegmentPins._Pin6",
+                      "Name": "__OpenWireRootUnit__.CALORIA.SegmentPins.g"
+                    }
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.MultiplyByValue3.InputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CALORIA.DigitPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.CALORIA.DigitPins.Pin [0]"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CALORIA.DigitPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.CALORIA.DigitPins.Pin [1]"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CALORIA.DigitPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.CALORIA.DigitPins.Pin [2]"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.DigitPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.DigitPins.Pin [1]"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.DigitPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.DigitPins.Pin [0]"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.DigitPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.DigitPins.Pin [1]"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.DigitPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.DigitPins.Pin [0]"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.SegmentPins._Pin6",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.SegmentPins.g"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.SegmentPins._Pin5",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.SegmentPins.f"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.SegmentPins._Pin4",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.SegmentPins.e"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.SegmentPins._Pin3",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.SegmentPins.d"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.SegmentPins._Pin2",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.SegmentPins.c"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.SegmentPins._Pin1",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.SegmentPins.b"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.SegmentPins._Pin0",
+                      "Name": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.SegmentPins.a"
+                    }
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                }
+              ]
+            },
+            "Modules": {
+              "*": [
+                {
+                  "+": "TArduinoEEPROMModule"
+                },
+                {
+                  "+": "TArduinoWatchdogTimerModule"
+                },
+                {
+                  "+": "TArduinoProcessor2560Module"
+                },
+                {
+                  "+": "TArduino_AVR2560_AnalogInput_Config"
+                }
+              ]
+            },
+            "Serial": {
+              "*": [
+                {
+                  "+": "TArduinoBreakHardwareSerial0"
+                },
+                {
+                  "+": "TArduinoBreakHardwareSerialMega1"
+                },
+                {
+                  "+": "TArduinoBreakHardwareSerialMega2"
+                },
+                {
+                  "+": "TArduinoBreakHardwareSerialMega3"
+                }
+              ]
+            },
+            "I2CChannels": {
+              "*": [
+                {
+                  "+": "TArduinoI2C"
+                }
+              ]
+            },
+            "SPIChannels": {
+              "*": [
+                {
+                  "+": "TArduinoSPI"
+                }
+              ]
+            },
+            "BoardType": "Arduino Mega 2560",
+            "+": "TArduinoBoard"
+          },
+          "X": 1552,
+          "Height": 2976,
+          "Y": 256,
+          "Type": "Component"
+        },
+        {
+          "Name": "Counter1",
+          "Width": 128,
+          "Instance": {
+            "Min": {
+              "Value": 0
+            },
+            "Max": {
+              "ReachedOutputPin": {
+                "SinkPins": [
+                  {
+                    "ID": "__OpenWireRootUnit__.Counter2.InputPin"
+                  }
+                ]
+              },
+              "Value": 59
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.Digits._Item0.InputPin",
+                  "Name": "__OpenWireRootUnit__.CRONOMETRO_TEMPO.Digits.Integer Display 7 Segments1.InputPin"
+                }
+              ]
+            },
+            "ResetInputPin": {
+              "SourcePins": [
+                {
+                  "ID": "__OpenWireRootUnit__.IntegerValue1.OutputPin"
+                }
+              ]
+            },
+            "InputPin": {
+              "SourcePins": [
+                {
+                  "ID": "__OpenWireRootUnit__.PulseGenerator1.OutputPin"
+                }
+              ]
+            },
+            "+": "TArduinoCounter"
+          },
+          "X": 912,
+          "Height": 112,
+          "Y": 2816,
+          "Type": "Component"
+        },
+        {
+          "Name": "PulseGenerator1",
+          "Width": 128,
+          "Instance": {
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Counter1.InputPin"
+                }
+              ]
+            },
+            "@": [
+              {
+                "SourcePin": {
+                  "ID": "__OpenWireRootUnit__.SRFlipFlop1.OutputPin"
+                },
+                "@": "Enabled",
+                "Component": "PulseGenerator1",
+                "PinName": "Enabled",
+                "+": "TOWBooleanSinkPinBinding"
+              }
+            ],
+            "+": "TArduinoPulseGenerator"
+          },
+          "X": 688,
+          "Height": 64,
+          "Y": 2560,
+          "Type": "Component"
+        },
+        {
+          "Name": "CRONOMETRO_TEMPO",
+          "Width": 224,
+          "Instance": {
+            "+": "TArduinoDisplayDynamic7Segments",
+            "Digits": {
+              "*": [
+                {
+                  "Name": "Integer Display 7 Segments1",
+                  "CountDigits": 2,
+                  "LeadingZeroes": true,
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.Counter1.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoTM1637_IntegerDisplay7Segments"
+                }
+              ]
+            },
+            "SegmentPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item69.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 69 ]\/AnalogIn[ 15 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item68.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 68 ]\/AnalogIn[ 14 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item67.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 67 ]\/AnalogIn[ 13 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item66.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 66 ]\/AnalogIn[ 12 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item65.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 65 ]\/AnalogIn[ 11 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item64.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 64 ]\/AnalogIn[ 10 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item63.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 63 ]\/AnalogIn[ 9 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource"
+                }
+              ]
+            },
+            "DigitPins": {
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item62.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 62 ]\/AnalogIn[ 8 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item61.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 61 ]\/AnalogIn[ 7 ].DigitalInputPin"
+                    }
+                  ]
+                }
+              ],
+              "Form": "__OpenWireRootUnit__",
+              "Count": 2
+            }
+          },
+          "X": 1216,
+          "Height": 224,
+          "Y": 2864,
+          "Type": "Component"
+        },
+        {
+          "Name": "CALORIA",
+          "Width": 224,
+          "Instance": {
+            "+": "TArduinoDisplayDynamic7Segments",
+            "Digits": {
+              "*": [
+                {
+                  "InitialValue": 111,
+                  "Name": "Integer Display 7 Segments1",
+                  "CountDigits": 3,
+                  "LeadingZeroes": true,
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CustomCode1.Outputs._Item1.OutputPin",
+                      "Name": "__OpenWireRootUnit__.CustomCode1.Outputs.Calorias.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoTM1637_IntegerDisplay7Segments"
+                }
+              ]
+            },
+            "SegmentPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item47.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 47 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item48.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 48 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item49.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 49 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item50.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital(SPI-MISO)[ 50 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item51.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital(SPI-MOSI)[ 51 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item52.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital(SPI-SCK)[ 52 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item53.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 53 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource"
+                }
+              ]
+            },
+            "DigitPins": {
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item56.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 56 ]\/AnalogIn[ 2 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item57.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 57 ]\/AnalogIn[ 3 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item58.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 58 ]\/AnalogIn[ 4 ].DigitalInputPin"
+                    }
+                  ]
+                }
+              ],
+              "Form": "__OpenWireRootUnit__",
+              "Count": 3
+            }
+          },
+          "X": 1008,
+          "Height": 240,
+          "Y": 960,
+          "Type": "Component"
+        },
+        {
+          "Name": "VELOCIDADE",
+          "Width": 224,
+          "Instance": {
+            "+": "TArduinoDisplayDynamic7Segments",
+            "Digits": {
+              "*": [
+                {
+                  "Name": "Analog Display 7 Segments1",
+                  "CountDigits": 3,
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.MultiplyByValue3.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoTM1637_AnalogDisplay7Segments"
+                }
+              ]
+            },
+            "SegmentPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item40.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 40 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item41.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 41 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item42.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 42 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item43.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 43 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item44.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 44 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item45.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 45 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item46.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 46 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource"
+                }
+              ]
+            },
+            "DigitPins": {
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item13.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital(LED)[ 13 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item12.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 12 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item11.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 11 ].DigitalInputPin"
+                    }
+                  ]
+                }
+              ],
+              "Form": "__OpenWireRootUnit__",
+              "Count": 3
+            }
+          },
+          "X": 1184,
+          "Height": 240,
+          "Y": 1952,
+          "Type": "Component"
+        },
+        {
+          "Name": "BATIMENTO",
+          "Width": 224,
+          "Instance": {
+            "+": "TArduinoDisplayDynamic7Segments",
+            "Digits": {
+              "*": [
+                {
+                  "Name": "Integer Display 7 Segments1",
+                  "CountDigits": 3,
+                  "LeadingZeroes": true,
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.RandomIntegerGenerator1.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoTM1637_IntegerDisplay7Segments"
+                }
+              ]
+            },
+            "SegmentPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item33.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 33 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item34.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 34 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item35.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 35 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item36.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 36 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item37.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 37 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item38.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 38 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item39.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 39 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource"
+                }
+              ]
+            },
+            "DigitPins": {
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item10.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 10 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item9.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 9 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item8.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 8 ].DigitalInputPin"
+                    }
+                  ]
+                }
+              ],
+              "Form": "__OpenWireRootUnit__",
+              "Count": 3
+            }
+          },
+          "X": 1168,
+          "Height": 240,
+          "Y": 1552,
+          "Type": "Component"
+        },
+        {
+          "Name": "DISTANCIA",
+          "Width": 224,
+          "Instance": {
+            "+": "TArduinoDisplayDynamic7Segments",
+            "Digits": {
+              "*": [
+                {
+                  "Name": "Integer Display 7 Segments1",
+                  "CountDigits": 3,
+                  "LeadingZeroes": true,
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.CustomCode1.Outputs._Item0.OutputPin",
+                      "Name": "__OpenWireRootUnit__.CustomCode1.Outputs.Distancia.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoTM1637_IntegerDisplay7Segments"
+                }
+              ]
+            },
+            "SegmentPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item25.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 25 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item26.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 26 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item27.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 27 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item28.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 28 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item29.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 29 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item30.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 30 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item31.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 31 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource"
+                }
+              ]
+            },
+            "DigitPins": {
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item7.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 7 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item6.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 6 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item5.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 5 ].DigitalInputPin"
+                    }
+                  ]
+                }
+              ],
+              "Form": "__OpenWireRootUnit__",
+              "Count": 3
+            }
+          },
+          "X": 1248,
+          "Height": 240,
+          "Y": 752,
+          "Type": "Component"
+        },
+        {
+          "Name": "RandomIntegerGenerator1",
+          "Width": 176,
+          "Instance": {
+            "Min": 60,
+            "Max": 120,
+            "ClockInputPin": {
+              "SourcePins": [
+                {
+                  "ID": "__OpenWireRootUnit__.PulseGenerator2.OutputPin"
+                }
+              ]
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.BATIMENTO.Digits._Item0.InputPin",
+                  "Name": "__OpenWireRootUnit__.BATIMENTO.Digits.Integer Display 7 Segments1.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoRandomIntegerGenerator"
+          },
+          "X": 912,
+          "Height": 48,
+          "Y": 1616,
+          "Type": "Component"
+        },
+        {
+          "Name": "PulseGenerator2",
+          "Width": 128,
+          "Instance": {
+            "Frequency": 0.100000001490116,
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.RandomIntegerGenerator1.ClockInputPin"
+                }
+              ]
+            },
+            "+": "TArduinoPulseGenerator"
+          },
+          "X": 736,
+          "Height": 48,
+          "Y": 1664,
+          "Type": "Component"
+        },
+        {
+          "Name": "CRONOMETRO_MINUTO",
+          "Width": 224,
+          "Instance": {
+            "+": "TArduinoDisplayDynamic7Segments",
+            "Digits": {
+              "*": [
+                {
+                  "Name": "Integer Display 7 Segments1",
+                  "CountDigits": 2,
+                  "LeadingZeroes": true,
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.Counter2.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoTM1637_IntegerDisplay7Segments"
+                }
+              ]
+            },
+            "SegmentPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item24.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 24 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item23.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 23 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item22.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 22 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item21.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital(I2C-SCL)[ 21 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item20.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital(I2C-SDA)[ 20 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item19.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital(RX1)[ 19 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item18.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital(TX1)[ 18 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource"
+                }
+              ]
+            },
+            "DigitPins": {
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item60.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 60 ]\/AnalogIn[ 6 ].DigitalInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "ID": "__OpenWireRootUnit__.Arduino.Digital._Item59.DigitalInputPin",
+                      "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 59 ]\/AnalogIn[ 5 ].DigitalInputPin"
+                    }
+                  ]
+                }
+              ],
+              "Form": "__OpenWireRootUnit__",
+              "Count": 2
+            }
+          },
+          "X": 1184,
+          "Height": 224,
+          "Y": 2576,
+          "Type": "Component"
+        },
+        {
+          "Name": "Counter2",
+          "Width": 128,
+          "Instance": {
+            "Min": {
+              "Value": 0
+            },
+            "Max": {
+              "Value": 60
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.Digits._Item0.InputPin",
+                  "Name": "__OpenWireRootUnit__.CRONOMETRO_MINUTO.Digits.Integer Display 7 Segments1.InputPin"
+                }
+              ]
+            },
+            "ResetInputPin": {
+              "SourcePins": [
+                {
+                  "ID": "__OpenWireRootUnit__.IntegerValue1.OutputPin"
+                }
+              ]
+            },
+            "InputPin": {
+              "SourcePins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Counter1.Max.ReachedOutputPin"
+                }
+              ]
+            },
+            "+": "TArduinoCounter"
+          },
+          "X": 960,
+          "Height": 112,
+          "Y": 2608,
+          "Type": "Component"
+        },
+        {
+          "Name": "MultiplyByValue3",
+          "Width": 128,
+          "Instance": {
+            "+": "TArduinoMultiplyByValue",
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.Arduino.Digital._Item54.OutputPin",
+                "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 54 ]\/AnalogIn[ 0 ].OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.VELOCIDADE.Digits._Item0.InputPin",
+                  "Name": "__OpenWireRootUnit__.VELOCIDADE.Digits.Analog Display 7 Segments1.InputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.CustomCode1.Inputs._Item0.InputPin",
+                  "Name": "__OpenWireRootUnit__.CustomCode1.Inputs.Velocidade.InputPin"
+                }
+              ]
+            },
+            "Value": 0.25
+          },
+          "X": 944,
+          "Height": 48,
+          "Y": 1984,
+          "Type": "Component"
+        },
+        {
+          "Name": "CustomCode1",
+          "Width": 160,
+          "Instance": {
+            "Inputs": {
+              "*": [
+                {
+                  "Name": "Velocidade",
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.MultiplyByValue3.OutputPin"
+                    }
+                  },
+                  "OnData": "velocidadeAtual = AValue;",
+                  "+": "TArduinoCustomCodeInputAnalogElement"
+                },
+                {
+                  "Name": "Zera",
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.Zerar.OutputPin"
+                    }
+                  },
+                  "OnData": "distanciaAcumulada = 0.0;",
+                  "+": "TArduinoCustomCodeInputDigitalElement"
+                },
+                {
+                  "Name": "Ligado",
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.SRFlipFlop1.OutputPin"
+                    }
+                  },
+                  "OnData": "estadoLigado = AValue;",
+                  "+": "TArduinoCustomCodeInputDigitalElement"
+                }
+              ]
+            },
+            "GlobalDeclarations": "unsigned long tempoAnterior = 0;\r\nfloat distanciaAcumulada = 0.0;\r\nfloat velocidadeAtual = 0.0;\r\nbool estadoLigado = false;",
+            "Outputs": {
+              "*": [
+                {
+                  "Name": "Distancia",
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.DISTANCIA.Digits._Item0.InputPin",
+                        "Name": "__OpenWireRootUnit__.DISTANCIA.Digits.Integer Display 7 Segments1.InputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoCustomCodeOutputIntegerElement"
+                },
+                {
+                  "Name": "Calorias",
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.CALORIA.Digits._Item0.InputPin",
+                        "Name": "__OpenWireRootUnit__.CALORIA.Digits.Integer Display 7 Segments1.InputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoCustomCodeOutputIntegerElement"
+                }
+              ]
+            },
+            "OnExecute": "unsigned long tempoAtual = millis();\r\nfloat deltaTempo = (tempoAtual - tempoAnterior) \/ 1000.0;\r\ntempoAnterior = tempoAtual;\r\n\r\nfloat vel_ms = 0.0;\r\n\r\nif (estadoLigado) {\r\n    vel_ms = velocidadeAtual \/ 3.6;\r\n}\r\n\r\ndistanciaAcumulada += vel_ms * deltaTempo;\r\nDistancia.Send((long)distanciaAcumulada);\r\nCalorias.Send((long)(distanciaAcumulada * 7.0));",
+            "+": "TArduinoCustomCode"
+          },
+          "X": 816,
+          "Height": 176,
+          "Y": 752,
+          "Type": "Component"
+        },
+        {
+          "Name": "Zerar",
+          "Width": 80,
+          "Instance": {
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.Arduino.Digital._Item4.OutputPin",
+                "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 4 ].OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.CustomCode1.Inputs._Item1.InputPin",
+                  "Name": "__OpenWireRootUnit__.CustomCode1.Inputs.Zera.InputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.IntegerValue1.ClockInputPin"
+                }
+              ]
+            },
+            "+": "TArduinoButton"
+          },
+          "X": 592,
+          "Height": 48,
+          "Y": 784,
+          "Type": "Component"
+        },
+        {
+          "Name": "IntegerValue1",
+          "Width": 128,
+          "Instance": {
+            "ClockInputPin": {
+              "SourcePins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Zerar.OutputPin"
+                }
+              ]
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Counter2.ResetInputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.Counter1.ResetInputPin"
+                }
+              ]
+            },
+            "+": "TArduinoIntegerValue"
+          },
+          "X": 256,
+          "Height": 48,
+          "Y": 1008,
+          "Type": "Component"
+        },
+        {
+          "Name": "Para",
+          "Width": 80,
+          "Instance": {
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.Arduino.Digital._Item3.OutputPin",
+                "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 3 ].OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.SRFlipFlop1.ResetInputPin"
+                }
+              ]
+            },
+            "+": "TArduinoButton"
+          },
+          "X": 352,
+          "Height": 48,
+          "Y": 752,
+          "Type": "Component"
+        },
+        {
+          "Name": "SRFlipFlop1",
+          "Width": 128,
+          "Instance": {
+            "+": "TArduinoSRFlipFlop",
+            "ResetInputPin": {
+              "SourcePins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Para.OutputPin"
+                }
+              ]
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.PulseGenerator1.EnabledInputPin",
+                  "Name": "__OpenWireRootUnit__.PulseGenerator1.Enabled"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.CustomCode1.Inputs._Item2.InputPin",
+                  "Name": "__OpenWireRootUnit__.CustomCode1.Inputs.Ligado.InputPin"
+                }
+              ]
+            },
+            "SetInputPin": {
+              "SourcePins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Inicia.OutputPin"
+                }
+              ]
+            }
+          },
+          "X": 560,
+          "Height": 64,
+          "Y": 912,
+          "Type": "Component"
+        },
+        {
+          "Name": "Inicia",
+          "Width": 80,
+          "Instance": {
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.Arduino.Digital._Item2.OutputPin",
+                "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 2 ].OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.SRFlipFlop1.SetInputPin"
+                }
+              ]
+            },
+            "+": "TArduinoButton"
+          },
+          "X": 336,
+          "Height": 48,
+          "Y": 816,
+          "Type": "Component"
+        }
+      ],
+      "Name": "__OpenWireRootUnit__",
+      "Type": "Diagram",
+      "Links": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "MultiplyByValue3.OutputPin",
+            "Y": 2016,
+            "X": 1072
+          },
+          "Name": "TOWELink39",
+          "End": {
+            "ID": "VELOCIDADE.Digits._Item0.InputPin",
+            "Y": 2016,
+            "X": 1184
+          }
+        },
+        {
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "CustomCode1.Outputs._Item0.OutputPin",
+            "Y": 816,
+            "X": 976
+          },
+          "Name": "TOWELink41",
+          "End": {
+            "ID": "DISTANCIA.Digits._Item0.InputPin",
+            "Y": 816,
+            "X": 1248
+          }
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+      ]
+    }
+  ],
+  "Version": "2",
+  "Content": "OpenWire Diagram",
+  "Product": "Visuino Pro - Visual Arduino Programming"
+}
